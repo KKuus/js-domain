@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Domeeni leidmine</title>
+  <!-- Bootstrap CSS CDN link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      background: linear-gradient(180deg, #F2EBD7, #D7E2FF);
+      color: #000;
+    }
+
+  </style>
+</head>
+
+<body>
+  <header class="bg-warning-subtle py-5 text-center ">
+    <div class="container">
+      <h1 class="text-dark fs-1">🐸</h1>
+    </div>
+  </header>
+
+  <div class="container py-3 bg-success-border">
+    <form action="http://localhost:8080/domeen-2.html" method="get" onkeydown="return event.key != 'Enter';">
+      <div class="input-group mb-3 bs-success">
+        <input name="Domain" class="form-control" placeholder="Sisesta domeeni nimi " aria-label="Domain" required>    
+        <button class=" btn btn-outline-secondary dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">Vali domeen</button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+          <li><button class="dropdown-item" type="submit" href="domeen-2.html">.ee (9.00€)</button></li>
+          <li><button class="dropdown-item" type="submit" href="domeen-2.html">.eu (3.00€)</button></li>
+          <li><button class="dropdown-item" type="submit" href="domeen-2.html">.com (15.00€)</button></li>
+          <li><button class="dropdown-item" type="submit" href="domeen-2.html">.net (12.00€)</button></li>
+        </ul>
+      </div>
+    </form>
+  </div>
+
+    <!-- Your content here -->
+    <div class="container py-5">
+    </div>
+  <!-- Bootstrap JS and Popper.js CDN links (for Bootstrap functionalities) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</form>
+</body>
+
+</html>
